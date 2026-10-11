@@ -1,0 +1,7 @@
+data/
+参考/
+_to_delete/
+.ipynb_checkpoints/
+__pycache__/
+项目说明.md
+interview.md
