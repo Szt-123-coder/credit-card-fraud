@@ -6,7 +6,7 @@
 用交易的 V1–V28、金额和时段特征，预测这笔交易是否为欺诈（Class=1）。漏掉欺诈的代价（资金损失、赔付）大于误判正常交易的代价（用户被打扰），所以在**审核量可控**的前提下优先提高召回率。
 
 ## 数据
-- 来源：公开的信用卡欺诈数据集，共 284,807 行，覆盖约 48 小时的交易。规模和字段与 Kaggle 上的「Credit Card Fraud Detection」数据集一致。字段为 Time、V1–V28（PCA 匿名特征）、Amount、Class。
+- 来源：Kaggle「[Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)」数据集（由 Worldline 与布鲁塞尔自由大学机器学习组合作采集），共 284,807 行，覆盖约 48 小时的交易。字段为 Time、V1–V28（PCA 匿名特征）、Amount、Class。
 - 放置位置：下载后放到 `data/creditcardfraud.csv`。数据文件约 150MB，不包含在本仓库中。
 
 ## 数据口径
